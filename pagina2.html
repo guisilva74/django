@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Website</title>
+</head>
+<body>
+    {% if nome and idade %}
+        <h2>{{ nome }} tem {{idade}} anos de idade.</h2>
+    {% else %}
+        <h2>Não existe dados.</h2>
+        {% endif %}
+    
+</body>
+</html>
